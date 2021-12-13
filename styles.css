@@ -143,7 +143,21 @@ body {
     transform: scaleY(-1);
 }
 
-#flipped-service-item {
+.flipped-service-item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 24px;
+    transform: scaleY(-1);
+}
+
+.flipped-service-description {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
     transform: scaleY(-1);
 }
 
